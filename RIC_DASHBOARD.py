@@ -43,6 +43,7 @@ def load_ric_data(ric):
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+server= app.server
 
 # Layout of the app
 app.layout = html.Div([
